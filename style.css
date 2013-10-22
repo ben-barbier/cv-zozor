@@ -9,6 +9,21 @@ body {
     margin-right: auto;
 }
 
+/**********/
+/* HEADER */
+/**********/
+
+#title {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 550px;
+}
+
+header img {
+    margin-top: 15px;
+}
+
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 85px;
@@ -18,7 +33,21 @@ h1 {
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #03638B;
+    display: inline;
+    font-size: 20px;
 }
+
+/*******/
+/* NAV */
+/*******/
+
+nav li {
+    list-style-type:none;
+}
+
+/***************/
+/* competences */
+/***************/
 
 h3 {
     font-family: 'Pacifico', cursive;
@@ -59,3 +88,11 @@ h4 {
     */
     margin-top: 5px;
 }
+
+/*******************/
+/* Experiences Pro */
+/*******************/
+
+
+
+
