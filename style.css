@@ -1,5 +1,6 @@
 body {
     background: url("images/background.png");
+    color: #002D40;
 }
 
 #bloc_page {
@@ -16,6 +17,7 @@ h1 {
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
+    color: #03638B;
 }
 
 h3 {
