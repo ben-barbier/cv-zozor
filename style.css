@@ -1,0 +1,59 @@
+body {
+    background: url("images/background.png");
+}
+
+#bloc_page {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 85px;
+    display: inline;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+h4 {
+    display: inline;
+    vertical-align: top;
+}
+
+.competence {
+    width: 170px;
+}
+
+.competence, .competence-droite {
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+}
+
+.competence img {
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+.lvl-zone {
+    position:relative;
+    width:100px;
+    height:21px;
+    overflow:hidden;
+}
+
+.lvl1 {
+    /*
+    position:absolute;
+    clip:rect(0px, 0px, 10px, 0px);
+    */
+    margin-top: 5px;
+}
