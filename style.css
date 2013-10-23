@@ -87,6 +87,8 @@ h3 {
 h4 {
     display: inline;
     vertical-align: top;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #03638B;
 }
 
 .competence {
@@ -101,23 +103,26 @@ h4 {
 
 .competence img {
     margin-right: 7px;
-    margin-top: 5px;
+}
+
+.competence .logo {
+    position: relative;
+    top: 4px;
 }
 
 .lvl-zone {
     position:relative;
     width:100px;
-    height:21px;
+    height:16px;
     overflow:hidden;
+    margin-top: 2px;
 }
 
-.lvl1 {
-    /*
-    position:absolute;
-    clip:rect(0px, 0px, 10px, 0px);
-    */
-    margin-top: 5px;
-}
+.lvl1 {margin-top: -63px;}
+.lvl2 {margin-top: -46px;}
+.lvl3 {margin-top: -30px;}
+.lvl4 {margin-top: -14px;}
+.lvl5 {margin-top: 0px;}
 
 /*******************/
 /* Experiences Pro */
