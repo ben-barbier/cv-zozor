@@ -17,11 +17,14 @@ body {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    width: 550px;
+    width: 540px;
 }
 
 header img {
     margin-top: 15px;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #979792;
 }
 
 h1 {
@@ -41,8 +44,26 @@ h2 {
 /* NAV */
 /*******/
 
-nav li {
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    margin-top: -7px;
+}
+
+nav ul li {
     list-style-type:none;
+    display:inline;
+    margin-right: 15px;
+}
+
+nav ul li img {
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
 }
 
 /***************/
@@ -93,6 +114,23 @@ h4 {
 /* Experiences Pro */
 /*******************/
 
+.experience-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+}
 
+.experience-txt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 565px;
+}
 
+.experience-txt p {
+    color: #666663;
+    font-size: 13px;
+}
 
+#experiences-pro h4 {
+    font-weight: normal;
+}
