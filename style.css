@@ -9,6 +9,11 @@ body {
     margin-right: auto;
 }
 
+h3 .img-title {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 /**********/
 /* HEADER */
 /**********/
@@ -81,7 +86,7 @@ nav ul li img {
 h3 {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
 h4 {
@@ -181,7 +186,7 @@ h4 {
     display: inline-block;
 }
 
-#centres-d-interet img {
+.img-interet {
     display: inline-block;
     width: 32px;
     margin-right: 10px;
