@@ -73,6 +73,7 @@ nav ul li img {
 h3 {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    margin: 15px 0px;
 }
 
 h4 {
@@ -133,4 +134,17 @@ h4 {
 
 #experiences-pro h4 {
     font-weight: normal;
+}
+
+/***********************/
+/* Formation & diplome */
+/***********************/
+
+#formations-diplomes h4 {
+    font-weight: normal;
+}
+
+#formations-diplomes p {
+    color: #666663;
+    font-size: 13px;
 }
