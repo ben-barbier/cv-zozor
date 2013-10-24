@@ -221,6 +221,7 @@ h4 {
     background-color:transparent;
     box-shadow: inset 0px 1px 3px 0px #555;
     border-radius: 5px;
+    width: 275px;
 }
 
 #contact form textarea {
